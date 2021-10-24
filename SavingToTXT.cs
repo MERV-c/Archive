@@ -13,12 +13,9 @@ namespace SavingToTXT
 
             while (menuLoop == true)
             {
-                while (menuChoice != "1" && menuChoice != "2" && menuChoice != "3")
-                {
-                    Console.Clear();
-                    Console.Write("1. Add persons to file\n2. View file\n3. Exit\nEnter choice: ");
-                    menuChoice = Console.ReadLine();
-                }
+                Console.Clear();
+                Console.Write("1. Add persons to file\n2. View file\n3. Exit\nEnter choice: ");
+                menuChoice = Console.ReadLine();                
 
                 if (menuChoice == "1")
                 {
