@@ -31,8 +31,7 @@ namespace SavingToTXT
                 if (menuChoice == "3")
                 {
                     menuLoop = false;
-                }
-                menuChoice = "";
+                }                
             }
         }
     }
